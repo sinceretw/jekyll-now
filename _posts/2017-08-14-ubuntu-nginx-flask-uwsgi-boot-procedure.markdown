@@ -9,4 +9,5 @@ categories: ubuntu
 3. uwsgi --ini *_uwsgi.ini 
 
 Whenever the html or python code is modified, uwsgi needs to be restarted, if not, the change would not shown on browser.
+nginx don't need to resart.
 
